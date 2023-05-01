@@ -20,24 +20,23 @@ ul,ol {
     border: 2px solid red;
 }
 
-section {
-    margin: auto;
+.all {
     display: flex;
-    width: 100%;
+}
+
+section {
+    width: 1140px;
+    margin: 0 auto;
     border: 2px solid red;
 }
 
 .section-item {
-    background-color: #2D3E4F;
-    border: 2px solid red;
-    width: 1140px;
-    height: auto;
+    background: #2D3E4F;
 }
 
 .section-title {
     background-image: url(/img/IMAGE\ \(10\).png);
     background-size: 100%;
-    padding: 486px;
+    padding: 310px;
     background-repeat: no-repeat;
-    width: 1140px;
 }
