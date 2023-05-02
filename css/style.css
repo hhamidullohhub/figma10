@@ -96,3 +96,7 @@ section {
     background-color: #CF404D;
     border: 2px solid #CF404D;
 }
+
+.section-white {
+    background-color: white;
+}
