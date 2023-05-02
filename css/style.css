@@ -13,6 +13,10 @@ ul,ol {
     list-style: none;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 .container {
     max-width: 1140px;
     width: 100%;
@@ -31,7 +35,31 @@ section {
 }
 
 .section-item {
+    padding-top: 300px;
     background: #2D3E4F;
+    text-align: center;
+    height: auto;
+}
+
+.section-item h1 {
+    color: #CF404D;
+    text-transform: capitalize;
+}
+
+.a1 {
+    width: 80px;
+    margin-left: 100px;
+}
+
+.a1 a {
+    margin-top: 50px;
+    color: white;
+    transition: .6s;
+    text-transform: capitalize;
+}
+
+.a1 a:hover {
+    color: #CF404D;;
 }
 
 .section-title {
@@ -39,4 +67,32 @@ section {
     background-size: 100%;
     padding: 310px;
     background-repeat: no-repeat;
+    text-align: center;
+}
+
+.section-title h1 {
+    color: white;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-evenly;
+    width: 230px;
+    margin-top: 30px;
+}
+
+.inputs p {
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    text-transform: capitalize;
+    transition: .6s;
+}
+
+.inputs p:hover {
+    background-color: #CF404D;
+    border: 2px solid #CF404D;
 }
